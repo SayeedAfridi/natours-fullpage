@@ -21,12 +21,36 @@ function App() {
     navigation = {false} 
     autoScrolling = {true}
     anchors = {['home', 'about', 'features', 'tours', 'stories', 'book', 'footer']}
+    fixedElements = {'.navigation'}
+    
     /* Options here */
 
     render={({ state, fullpageApi }) => {
       console.log(fullpageApi);
+      const navTog = () => {
+        const nav = document.querySelector('#navi-toggle');
+        nav.checked = !nav.checked;
+      }
       return (
         <ReactFullpage.Wrapper>
+          <div class="navigation">
+              <input type="checkbox" id="navi-toggle" class="navigation__checkbox" />
+              <label for="navi-toggle" class="navigation__button">
+                  <span class="navigation__icon">
+
+                  </span>
+              </label>
+              <div class="navigation__background">&nbsp;</div>
+              <nav class="navigation__nav">
+                  <ul class="navigation__list">
+                      <li class="navigation__item"><a href="#about" class="navigation__link" onClick={navTog}><span>01</span>About Natours</a></li>
+                      <li class="navigation__item"><a href="#features" class="navigation__link" onClick={navTog}><span>02</span>Your benifits</a></li>
+                      <li class="navigation__item"><a href="#tours" class="navigation__link" onClick={navTog}><span>03</span>Popular tours</a></li>
+                      <li class="navigation__item"><a href="#stories" class="navigation__link" onClick={navTog}><span>04</span>Stories</a></li>
+                      <li class="navigation__item"><a href="#book" class="navigation__link" onClick={navTog}><span>05</span>Book now</a></li>
+                  </ul>
+              </nav>
+          </div>
           <div className="section">
             <Home />
           </div>

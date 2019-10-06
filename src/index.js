@@ -7,7 +7,7 @@ import {isMobile, isTablet} from 'react-device-detect'
 
 
 if(isMobile || isTablet){
-    window.location.replace("http://google.com")
+    window.location.replace("https://sayeedafridi.github.io/natours-design")
 }else{
     ReactDOM.render(<App />, document.getElementById('root'));
 }
