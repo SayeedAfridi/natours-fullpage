@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/natours-fullpage/static/css/main.1a981070.chunk.css",
-    "main.js": "/natours-fullpage/static/js/main.9da0441b.chunk.js",
-    "main.js.map": "/natours-fullpage/static/js/main.9da0441b.chunk.js.map",
+    "main.js": "/natours-fullpage/static/js/main.18fe8518.chunk.js",
+    "main.js.map": "/natours-fullpage/static/js/main.18fe8518.chunk.js.map",
     "runtime-main.js": "/natours-fullpage/static/js/runtime-main.a8609b09.js",
     "runtime-main.js.map": "/natours-fullpage/static/js/runtime-main.a8609b09.js.map",
     "static/js/2.e8040d8f.chunk.js": "/natours-fullpage/static/js/2.e8040d8f.chunk.js",
     "static/js/2.e8040d8f.chunk.js.map": "/natours-fullpage/static/js/2.e8040d8f.chunk.js.map",
     "index.html": "/natours-fullpage/index.html",
-    "precache-manifest.391924dd1baf93233ed68b55d44cfe40.js": "/natours-fullpage/precache-manifest.391924dd1baf93233ed68b55d44cfe40.js",
+    "precache-manifest.16b7dc5ba46a939988cf86bd698b91d8.js": "/natours-fullpage/precache-manifest.16b7dc5ba46a939988cf86bd698b91d8.js",
     "service-worker.js": "/natours-fullpage/service-worker.js",
     "static/css/main.1a981070.chunk.css.map": "/natours-fullpage/static/css/main.1a981070.chunk.css.map",
     "static/media/hero-small.jpg": "/natours-fullpage/static/media/hero-small.cd69d355.jpg",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.a8609b09.js",
     "static/js/2.e8040d8f.chunk.js",
     "static/css/main.1a981070.chunk.css",
-    "static/js/main.9da0441b.chunk.js"
+    "static/js/main.18fe8518.chunk.js"
   ]
 }

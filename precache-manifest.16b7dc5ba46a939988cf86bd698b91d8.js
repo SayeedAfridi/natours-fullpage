@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d4b13c533efc573fb79677365828879",
+    "revision": "c0321e35df8a4af2ee29df107cb4f663",
     "url": "/natours-fullpage/index.html"
   },
   {
-    "revision": "b8381881b98c319147d4",
+    "revision": "78840dcb9256b04f0aab",
     "url": "/natours-fullpage/static/css/main.1a981070.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/natours-fullpage/static/js/2.e8040d8f.chunk.js"
   },
   {
-    "revision": "b8381881b98c319147d4",
-    "url": "/natours-fullpage/static/js/main.9da0441b.chunk.js"
+    "revision": "78840dcb9256b04f0aab",
+    "url": "/natours-fullpage/static/js/main.18fe8518.chunk.js"
   },
   {
     "revision": "423a6e1451f46fa871f1",
