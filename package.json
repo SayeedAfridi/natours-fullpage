@@ -2,8 +2,10 @@
   "name": "natours-fullpage",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sayeedafridi.github.io/natours-fullpage",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.16",
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
     "react": "^16.10.2",
     "react-device-detect": "^1.9.10",
@@ -15,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
